@@ -7,7 +7,7 @@ cd uts78
 docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
 docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 ```
-*Note I had to change eth0 to eth1 in this, since ip address didn't match. 
+*The goal here is to get the developer environment spun up in as few shell commands as possible, ideally down to 2. 
 
 
 # Verify docker swarm is setup.
