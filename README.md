@@ -1,7 +1,8 @@
 # Onboarding New Devs (Step 1)
 ```
 cd
-git clone https://github.com/devopsjourney1/ansible-swarm-playbook
+#git clone https://github.com/devopsjourney1/ansible-swarm-playbook
+git clone https://github.com/ultimitech/uts37 uts78
 cd uts78
 #cat readme.md && ./entrypoint.sh
 docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
