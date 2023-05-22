@@ -1,5 +1,3 @@
-
-
 # Clone the ansible project
 ```
 git clone https://github.com/devopsjourney1/ansible-swarm-playbook
