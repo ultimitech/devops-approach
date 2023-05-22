@@ -1,4 +1,4 @@
-# Onboarding New Devs (Manual Bash Commands)
+# Onboarding New Devs (Step 1)
 ```
 cd
 git clone https://github.com/devopsjourney1/ansible-swarm-playbook
