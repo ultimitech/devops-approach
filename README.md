@@ -6,7 +6,7 @@ git clone https://github.com/ultimitech/uts37 uts78
 cd uts78
 # we're catting out the readme.md file here because it will contain crucial setup instructions
 #cat readme.md && ./entrypoint.sh
-# after looking at the instructions provided in readme.md, we proceed to execute the following docker commands
+# after looking at the setup instructions in steps.md, we proceed to execute the following docker commands to build our dev environment
 docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
 docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 ```
