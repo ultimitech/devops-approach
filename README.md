@@ -1,4 +1,4 @@
-# Onboarding new devs
+# Onboard new devs
 ```
 # ensure you're in your home directory wherever you'd like to start the project
 cd
@@ -13,8 +13,11 @@ docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 *The goal here is to get the developer environment spun up in as few shell commands as possible, ideally down to 1 or 2. Notice how all these shell steps are manual void of any automation. The next step will involve a core aspect of DevOps: replacing any repeated manual work with automation.
 
 
-# Automate workflows with CI/CD (Jenkins)
+# Automate with CI/CD (Jenkins)
 ```
+touch dev.jenkinsfile
+wget -O https://github.com/ultimitech/jenkins/jenkinsfile.template
+wget -O https://github.com/ultimitech/docker/dockerfile.template
 sudo docker node ls
 ```
 
