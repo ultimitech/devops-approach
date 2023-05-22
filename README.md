@@ -1,4 +1,4 @@
-# Onboarding new devs (Step 1)
+# 1) Onboarding new devs
 ```
 cd
 #git clone https://github.com/devopsjourney1/ansible-swarm-playbook
