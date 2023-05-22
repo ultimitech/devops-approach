@@ -1,10 +1,12 @@
 # Onboarding new devs
 ```
+# ensure you're in your home directory wherever you'd like to start the project
 cd
-#git clone https://github.com/devopsjourney1/ansible-swarm-playbook
 git clone https://github.com/ultimitech/uts37 uts78
 cd uts78
+# we're catting out the readme.md file here because it will contain crucial setup instructions
 #cat readme.md && ./entrypoint.sh
+# after looking at the instructions provided in readme.md, we proceed to execute the following docker commands
 docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
 docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 ```
