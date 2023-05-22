@@ -1,9 +1,11 @@
-# Onboarding New Devs
+# Onboarding New Devs (Manual Bash Commands)
 ```
 cd
 git clone https://github.com/devopsjourney1/ansible-swarm-playbook
 cd uts78
-cat readme.md && ./entrypoint.sh
+#cat readme.md && ./entrypoint.sh
+docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
+docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 ```
 *Note I had to change eth0 to eth1 in this, since ip address didn't match. 
 
