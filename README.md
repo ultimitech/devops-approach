@@ -11,7 +11,7 @@ docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 *The goal here is to get the developer environment spun up in as few shell commands as possible, ideally down to 2. 
 
 
-# Verify docker swarm is setup.
+# Automate workflows with CI/CD (Jenkins)
 ```
 sudo docker node ls
 ```
