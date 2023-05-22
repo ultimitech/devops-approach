@@ -15,6 +15,9 @@ docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 
 # Automate with CI/CD (Jenkins)
 ```
+# clone jenkins reo and build custom docker image before proceeding to adding CI/CD pipeline groovy scripts into your project
+cd
+git clone https://github.com/ultimitech/jenkins/install docker-jenkins
 touch dev.jenkinsfile
 wget -O https://github.com/ultimitech/jenkins/jenkinsfile.template
 wget -O https://github.com/ultimitech/docker/dockerfile.template
