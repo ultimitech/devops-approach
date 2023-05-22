@@ -10,7 +10,7 @@ cd uts78
 docker build --rm -f web.dockerfile -t ultimitech/uts78-web:0 .
 docker run --rm --name uts78-web0 -itd -p 80:80 ultimitech/uts78-web:0
 ```
-*The goal here is to get the developer environment spun up in as few shell commands as possible, ideally down to 2. Notice how all these shell steps are manual. The next step will involve a core aspect of DevOps: replacing manual work with automation.
+*The goal here is to get the developer environment spun up in as few shell commands as possible, ideally down to 1 or 2. Notice how all these shell steps are manual void of any automation. The next step will involve a core aspect of DevOps: replacing any repeated manual work with automation.
 
 
 # Automate workflows with CI/CD (Jenkins)
