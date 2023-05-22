@@ -1,6 +1,9 @@
-# Clone the ansible project
+# Onboarding New Devs
 ```
+cd
 git clone https://github.com/devopsjourney1/ansible-swarm-playbook
+cd uts78
+cat readme.md && ./entrypoint.sh
 ```
 *Note I had to change eth0 to eth1 in this, since ip address didn't match. 
 
